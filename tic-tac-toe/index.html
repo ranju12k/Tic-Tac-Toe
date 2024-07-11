@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="ticTacToeApp">
+<head>
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="gameController.js"></script>
+    <script src="gameService.js"></script>
+</head>
+<body ng-controller="GameController">
+    <div class="board">
+        <div class="cell" ng-repeat="cell in board track by $index" ng-click="makeMove($index)">
+            {{ cell }}
+        </div>
+    </div>
+    <div class="status">
+        {{ statusMessage }}
+    </div>
+    <button ng-click="resetGame()">Reset Game</button>
+</body>
+</html>
