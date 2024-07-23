@@ -49,7 +49,8 @@ Tic-Tac-Toe is a classic two-player game where each player takes turns marking a
 
 ## Screenshots
 
-![Tic-Tac-Toe Screenshot](path/to/screenshot.png)
+![image](https://github.com/user-attachments/assets/966a449e-fd92-4b28-9ed1-b42bc97b152b)
+
 
 ## Technologies Used
 
